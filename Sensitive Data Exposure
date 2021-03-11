@@ -1,0 +1,4 @@
+
+HTML5 Web Storage (Secret)
+
+<script>for (var key in localStorage){document.write('<br><b>'+ key + '</b> : ' + localStorage[key])};</script>
