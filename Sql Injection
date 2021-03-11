@@ -1,11 +1,18 @@
 
+1. Search bar
 
 inser " ' " in search bar and check wether it returned or not.
 
 learn database
 
 
-http://softage.be/bwappexploited/inject1.php
+http://softage.be/bwappexploited/inject1.php 
+
+2. change url link
+
+put query in url link
+
+http://softage.be/bwappexploited/inject2.php
 
 
 sqlmap
