@@ -1,0 +1,22 @@
+
+
+
+hide the web server in http header
+
+cookies can also tell what server is running -> JSESSIONID=324324 means Java stack
+
+finger printing tools
+
+
+dont tell the path where is the error in production
+
+ajax response dont return the debug in JSON or XML or dont pass significant data- database leaked is common.
+
+javascript version contain xss.be sure to check updated or not.
+
+obfuscate code - file name ,version
+
+
+ip address leaked
+
+Nmap- check os version.
