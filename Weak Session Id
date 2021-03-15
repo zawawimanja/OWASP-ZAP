@@ -1,0 +1,5 @@
+
+
+hijack through session id by watching the http header . Attacker will try random number to find session id that contain valid session id.
+
+Then, attacker change the session id that has been found in http header.
