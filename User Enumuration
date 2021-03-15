@@ -1,0 +1,16 @@
+
+
+brute force 
+
+social engineering
+
+
+
+if login fail multiple times,make it  longer to try to login
+
+generic error message when fail. Wrong password or username
+
+time consuming operation like password hash - login code path same time on average .Hacker cannnot guess when 5s is username and 3s is for password.
+
+
+HTTP response header  dont put cookies session_id if username & password is wring.
