@@ -1,0 +1,14 @@
+
+
+URI fragment in the url like www.bread.com/#1 . # means page for user when press back button will return to previous page.
+
+But the hacker can put the code in the url after #
+
+$(document).onload(function() {
+  var page = window.location.hash;
+  loadPage(page);
+
+  $("#page-no").html(page);
+});
+
+window.location.hash value is written into the DOM as raw HTML - a major security hole.
